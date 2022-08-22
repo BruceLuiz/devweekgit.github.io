@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #70c6c7;
+    background-color: #062925;
 }
 
 .resume-contents {
@@ -21,13 +21,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
+    background-color: #044a42;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4B6982;
+    background-color: #3a9188;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #1B2631;
+    border-bottom: 2px solid #1b1b31;
 }
 
 .profile .profile-image {
@@ -57,7 +57,7 @@ body {
 }
 
 .profession {
-    color: #FDB44B;
+    color: #4841a7;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -68,7 +68,7 @@ body {
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #FDB44B;
+    color: #4841a7;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -110,6 +110,13 @@ body {
     display: flex;
     align-items: center;
     text-transform: uppercase;
+}
+
+.skills ul li p i,
+.references ul li p i {
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #2E86C1;
 }
 
 .referance-name {
@@ -172,7 +179,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #4841a7;
     padding-bottom: .4rem;
 }
 
@@ -191,7 +198,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #4841a7;
     padding-bottom: .4rem;
 }
 
